@@ -1,4 +1,4 @@
-import TestContext from "../../configuration/testcontext.js";
+import TestContext from "../../configuration/TestContext.js";
 import { group } from "k6";
 import { randomString } from 'https://jslib.k6.io/k6-utils/1.4.0/index.js';
 import { getCrocodilesRequest, postCrocodilesRequest, putCrocodilesRequest, patchCrocodilesRequest, deleteCrocodilesRequest, getHTMLCrocodilesRequests } from "../../requests/crocodileRequest.js";
